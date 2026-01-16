@@ -1,0 +1,42 @@
+# Compiler files
+cache/
+out/
+
+# Coverage
+coverage/
+lcov.info
+artifacts/
+
+# Environment
+.env
+.env.local
+.env.backup
+
+# Broadcast logs
+broadcast/
+broadcast/**/dry-run/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Foundry
+lib/
+
+# Node (if adding frontend later)
+node_modules/
+package-lock.json
+forge-std/
+*.log
+*.tmp
+.vscode/
+.DS_Store
+*.swp
+*.bak
